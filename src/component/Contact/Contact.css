@@ -1,0 +1,96 @@
+.Contact .left {
+    width: 36%;
+}
+
+.Contact .right {
+    width: 60%;
+}
+
+.Contact .box {
+    padding: 30px;
+}
+
+.Contact .box img {
+    width: 250px;
+    display: block;
+    margin: 0 auto;
+}
+
+.Contact .details h1 {
+    margin: 20px 0 20px 0;
+    font-size: 35px;
+    text-align: center;
+}
+
+.Contact .details p {
+    font-size: 17px;
+}
+
+.Contact .button {
+    margin-top: 20px;
+}
+
+.Contact button {
+    margin-right: 20px;
+}
+
+.Contact .right {
+    padding: 35px;
+}
+
+.Contact .input span {
+    font-size: 13px;
+}
+
+.Contact input {
+    margin-top: 10px;
+}
+
+.Contact .right button {
+    width: 100%;
+    color: #0000ff;
+}
+
+.Contact .right button:hover {
+    color: white;
+}
+
+.Contact .right button i {
+    margin-left: 10px;
+}
+
+.button.f_flex i {
+    font-size: 20px;
+}
+
+.button.f_flex .btn_shadow:nth-child(1) a[href*="github"] i {
+    color: #333;
+}
+
+.button.f_flex .btn_shadow:nth-child(2) a[href*="twitter"] i {
+    color: #181818;
+}
+
+.button.f_flex .btn_shadow:nth-child(3) a[href*="tiktok"] i {
+    color: #FF0000;
+}
+
+.button.f_flex .btn_shadow:nth-child(4) i {
+    color: #0077B5;
+}
+
+.info_item span {
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .Contact .d_flex {
+        flex-direction: column;
+    }
+
+    .Contact .left,
+    .Contact .right {
+        width: 100%;
+        margin-top: 50px;
+    }
+}

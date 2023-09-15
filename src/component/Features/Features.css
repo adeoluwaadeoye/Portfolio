@@ -1,0 +1,60 @@
+.features .box {
+    padding: 50px;
+}
+
+.features .box h2 {
+    margin: 20px 0 20px 0;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.features img {
+    display: block;
+    margin: 0 auto;
+}
+
+.features .box p {
+    word-spacing: 2px;
+    transition: 0.5s;
+}
+
+.features .box i {
+    display: block;
+    font-size: 30px;
+    transition: 0.5s;
+    opacity: 0;
+}
+
+.features .box:hover p {
+    color: white;
+}
+
+.features .box:hover i {
+    color: white;
+    opacity: 1;
+}
+
+.features .box:hover img {
+    color: white;
+}
+
+/* Media query for phones and tablets */
+@media (max-width: 768px) {
+    .features {
+        grid-template-columns: (1fr);
+    }
+
+    .features .box {
+        padding: 20px;
+    }
+
+    .features .box h2 {
+        margin: 10px 0 10px 0;
+    }
+
+    .features .box i {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+}
+
